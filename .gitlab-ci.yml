@@ -1,0 +1,9 @@
+deploy:
+  script:
+    - apt-get update -qq && apt-get install -y -qq lftp
+    - echo "*** Copy file to target"
+    - lftp -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST; "mirror -e -R -x .git -p ./ $FTP_DESTINATION ; quit"
+  environment:
+    name: production
+  only:
+    - main

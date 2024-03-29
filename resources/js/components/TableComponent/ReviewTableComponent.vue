@@ -1,0 +1,39 @@
+<script setup>
+import { ref, onMounted} from 'vue';
+import axios from 'axios'
+import TableCore from "@/components/TableCore.vue";
+
+const items = ref([])
+const headers = ref([])
+const loading = ref(false)
+
+headers.value =  [
+          { field: 'id',title: 'ID', isUnique: true, sort:false, type: 'number'},
+          { field: 'body', title: 'Review' },
+          { field: 'rating', title: 'Reating'},
+          { field: 'actions',  title: 'Actions', sort: false },
+        ]
+onMounted( async () => {
+    await axios.get('https://dummyjson.com/comments')
+    .then(function (response) {
+        items.value = response.data.comments;
+        loading.value = true;
+  }).catch((error) => {
+    console.log(error);
+  })
+});
+
+function editValue(data){
+  window.location.href = window.location.origin + '/product/edit/'+ data.id
+}
+function deleteValue(data){
+  window.location.href = window.location.origin + '/product/delete/'+ data.id
+}
+
+</script>
+
+<template>
+    <div class="bg-white p-5">
+        <TableCore v-if="loading" :items=items :headers=headers @handle-edit="editValue" @handle-delete="deleteValue" />
+    </div>
+</template>
