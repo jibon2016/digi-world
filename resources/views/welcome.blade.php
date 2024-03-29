@@ -19,13 +19,13 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="{{ asset('/assets/images/slider/slider-1.png') }}" class="d-block w-100" alt="...">
+                                    <img src="{{ asset('assets/images/slider/slider-1.png') }}" class="d-block w-100" alt="...">
                                 </div>
                                     <div class="carousel-item">
-                                <img src="{{ asset('/assets/images/slider/slider-2.jpg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('assets/images/slider/slider-2.jpg') }}" class="d-block w-100" alt="...">
                                     </div>
                                 <div class="carousel-item">
-                                    <img src="{{ asset('/assets/images/slider/slider-3.jpg') }}" class="d-block w-100" alt="...">
+                                    <img src="{{ asset('assets/images/slider/slider-3.jpg') }}" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="ads shadow">
                         <a href="">
-                            <img class="" src="{{ asset('/assets/images/ads/front-ads.png') }}" alt="">
+                            <img class="" src="{{ asset('assets/images/ads/front-ads.png') }}" alt="">
                         </a>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60 height="60">
+                                <img src="{{ asset('assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60 height="60">
                             </span>
                             <p>Home Appliances</p>
                         </a>
@@ -83,7 +83,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/drone.png') }}" alt="D60e" width=60 height="60">
+                                <img src="{{ asset('assets/images/icons/drone.png') }}" alt="D60e" width=60 height="60">
                             </span>
                             <p>Drone</p>
                         </a>
@@ -92,7 +92,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/gimbal.png') }}" alt="Gi60l" width=60 height="60">
+                                <img src="{{ asset('assets/images/icons/gimbal.png') }}" alt="Gi60l" width=60 height="60">
                             </span>
                             <p>Gimbal</p>
                         </a>
@@ -101,7 +101,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/repair.png') }}" alt="Battery for La60p" width=60 height="60">
+                                <img src="{{ asset('assets/images/icons/repair.png') }}" alt="Battery for La60p" width=60 height="60">
                             </span>
                             <p>Battery for Laptop</p>
                         </a>
@@ -110,7 +110,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/tv.png') }}" alt="TV" width=60 height="60">
+                                <img src="{{ asset('assets/images/icons/tv.png') }}" alt="TV" width=60 height="60">
                             </span>
                             <p>TV</p>
                         </a>
@@ -119,7 +119,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/phone.png') }}" alt="Phone" width=60 height="60">
+                                <img src="{{ asset('assets/images/icons/phone.png') }}" alt="Phone" width=60 height="60">
                             </span>
                             <p>Phone</p>
                         </a>
@@ -128,7 +128,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/power-bank.png') }}" alt="Power Bank" width=60 height="60">
+                                <img src="{{ asset('assets/images/icons/power-bank.png') }}" alt="Power Bank" width=60 height="60">
                             </span>
                             <p>Power Bank</p>
                         </a>
@@ -137,7 +137,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/virtual-reality.png') }}" alt="virtual reality" width=60 height="60">
+                                <img src="{{ asset('assets/images/icons/virtual-reality.png') }}" alt="virtual reality" width=60 height="60">
                             </span>
                             <p>VR </p>
                         </a>
@@ -147,7 +147,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/smart-watch.png') }}" alt="smart watch" width=60 height="60">
+                                <img src="{{ asset('assets/images/icons/smart-watch.png') }}" alt="smart watch" width=60 height="60">
                             </span>
                             <p>Smart Watch</p>
                         </a>
@@ -156,7 +156,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60 height="60">
+                                <img src="{{ asset('assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60 height="60">
                             </span>
                             <p>Home Appliances</p>
                         </a>
@@ -165,7 +165,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
+                                <img src="{{ asset('assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
                             </span>
                             <p>Home Appliances</p>
                         </a>
@@ -174,7 +174,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
+                                <img src="{{ asset('assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
                             </span>
                             <p>Home Appliances</p>
                         </a>
@@ -183,7 +183,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
+                                <img src="{{ asset('assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
                             </span>
                             <p>Home Appliances</p>
                         </a>
@@ -192,7 +192,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
+                                <img src="{{ asset('assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
                             </span>
                             <p>Home Appliances</p>
                         </a>
@@ -201,7 +201,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
+                                <img src="{{ asset('assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
                             </span>
                             <p>Home Appliances</p>
                         </a>
@@ -210,7 +210,7 @@
                     <div class="cat-item">
                         <a class="cart-item-inner" href="#">
                             <span class="cat-icon">
-                                <img src="{{ asset('/assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
+                                <img src="{{ asset('assets/images/icons/electric-appliance.png') }}" alt="Home Applia60s" width=60" height="60">
                             </span>
                             <p>Home Appliances</p>
                         </a>
@@ -295,31 +295,31 @@
                         <div class="splide__track">
                             <ul class="splide__list">
                                 <li class="splide__slide partner-slider text-center p-5  d-flex items-center justify-content-center" data-splide-interval="3000">
-                                    <img src="{{ asset('/assets/images/partners/hp-logo.png') }}" alt="" width="80" height="60">
+                                    <img src="{{ asset('assets/images/partners/hp-logo.png') }}" alt="" width="80" height="60">
                                 </li>
                                 <li class="splide__slide partner-slider text-center p-5 d-flex items-center justify-content-center" data-splide-interval="3000">
-                                    <img src="{{ asset('/assets/images/partners/dell-logo.png') }}" alt="" width="80" height="60">
+                                    <img src="{{ asset('assets/images/partners/dell-logo.png') }}" alt="" width="80" height="60">
                                 </li>
                                 <li class="splide__slide partner-slider text-center p-5 d-flex items-center justify-content-center" data-splide-interval="3000">
-                                    <img src="{{ asset('/assets/images/partners/assus-logo.png') }}" alt="" width="80" height="60">
+                                    <img src="{{ asset('assets/images/partners/assus-logo.png') }}" alt="" width="80" height="60">
                                 </li>
                                 <li class="splide__slide partner-slider text-center p-5  d-flex items-center justify-content-center" data-splide-interval="3000">
-                                    <img src="{{ asset('/assets/images/partners/mac-logo.png') }}" alt="" width="80" height="60">
+                                    <img src="{{ asset('assets/images/partners/mac-logo.png') }}" alt="" width="80" height="60">
                                 </li>
                                 <li class="splide__slide partner-slider text-center p-5  d-flex items-center justify-content-center" data-splide-interval="3000">
-                                    <img src="{{ asset('/assets/images/partners/amd-logo.png') }}" alt="" width="80" height="60">
+                                    <img src="{{ asset('assets/images/partners/amd-logo.png') }}" alt="" width="80" height="60">
                                 </li>
                                 <li class="splide__slide partner-slider text-center p-5  d-flex items-center justify-content-center" data-splide-interval="3000">
-                                    <img src="{{ asset('/assets/images/partners/lenovo-logo.png') }}" alt="" width="80" height="60">
+                                    <img src="{{ asset('assets/images/partners/lenovo-logo.png') }}" alt="" width="80" height="60">
                                 </li>
                                 <li class="splide__slide partner-slider text-center p-5  d-flex items-center justify-content-center" data-splide-interval="3000">
-                                    <img src="{{ asset('/assets/images/partners/microsoft-logo.png') }}" alt="" width="80" height="60">
+                                    <img src="{{ asset('assets/images/partners/microsoft-logo.png') }}" alt="" width="80" height="60">
                                 </li>
                                 <li class="splide__slide partner-slider text-center p-5  d-flex items-center justify-content-center" data-splide-interval="3000">
-                                    <img src="{{ asset('/assets/images/partners/intel-logo.png') }}" alt="" width="80" height="60">
+                                    <img src="{{ asset('assets/images/partners/intel-logo.png') }}" alt="" width="80" height="60">
                                 </li>
                                 <li class="splide__slide partner-slider text-center p-5  d-flex items-center justify-content-center" data-splide-interval="3000">
-                                    <img src="{{ asset('/assets/images/partners/acer-logo.png') }}" alt="" width="80" height="60">
+                                    <img src="{{ asset('assets/images/partners/acer-logo.png') }}" alt="" width="80" height="60">
                                 </li>
                             </ul>
                         </div>

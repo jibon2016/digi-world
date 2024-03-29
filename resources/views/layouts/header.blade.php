@@ -154,6 +154,5 @@
 @section('js')
     <script>
         
-        console.log('hi');
     </script>
 @endsection
