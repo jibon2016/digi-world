@@ -30,9 +30,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
         <!-- Custom CSS link -->
-        <link rel="stylesheet" href="{{ asset('assets/css/loader.css') }}" type="text/css">
-        <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}" type="text/css">
-        <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}" type="text/css">
+        <link rel="stylesheet" href="{{ asset('public/assets/css/loader.css') }}" type="text/css">
+        <link rel="stylesheet" href="{{ asset('public/assets/css/custom.css') }}" type="text/css">
+        <link rel="stylesheet" href="{{ asset('public/assets/css/responsive.css') }}" type="text/css">
 
         <!-- Styles -->
         <style>
@@ -83,7 +83,7 @@
         <!-- Jquery Link -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <!-- Custom JS Link -->
-        <script src="{{ asset('/assets/js/custom.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('public/assets/js/custom.js') }}" type="text/javascript"></script>
 
         @yield('js')
     </body>
