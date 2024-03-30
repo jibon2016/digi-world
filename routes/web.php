@@ -7,6 +7,7 @@ use App\Http\Controllers\Fontend\PcBuilderController;
 use App\Http\Controllers\Fontend\ProductsController;
 use App\Http\Controllers\ProductCompareController;
 use App\Http\Controllers\ProfileController;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 
@@ -107,6 +108,13 @@ Route::middleware(['admin'])->group(function(){
 
 });
 
+Route::get('/storage-link', function(){
+    Artisan::call('storage:link');
+
+    Alert::success('Storage linked')->persistent('Close')->autoclose(6000);
+
+    return back();
+});
 
 
 
