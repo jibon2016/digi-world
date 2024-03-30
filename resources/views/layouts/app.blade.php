@@ -32,7 +32,6 @@
         <!-- Custom CSS link -->
         <link rel="stylesheet" href="{{ asset('assets/css/loader.css') }}" type="text/css">
         <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}" type="text/css">
-        {{-- <link rel="stylesheet" href="{{ asset('public/assets/css/responsive.css') }}" type="text/css"> --}}
         <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}" type="text/css">
 
         <!-- Styles -->

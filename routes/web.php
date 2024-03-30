@@ -110,9 +110,6 @@ Route::middleware(['admin'])->group(function(){
 
 Route::get('/storage-link', function(){
     Artisan::call('storage:link');
-
-    Alert::success('Storage linked')->persistent('Close')->autoclose(6000);
-
     return back();
 });
 
