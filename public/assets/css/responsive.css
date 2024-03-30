@@ -430,9 +430,9 @@
     .pcb-header .actions .action{
         display: none;
     }
-    body {
+    /* body {
         width: 100vh !important;
-    }
+    } */
 }
 
 @media (max-width: 1024px) {
