@@ -10,9 +10,9 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
-      name: Node package install
+    - name: Node package install
       run: npm install 
-      name: Node file compiled
+    - name: Node file compiled
       run: npm run build
     
     - name: 📂 Sync files
