@@ -50,10 +50,6 @@
                 @include('layouts.header')
                 <!-- Header Section End -->
 
-                <!-- Category Section Start -->
-                @include('layouts.navigation')
-                <!-- Category Section End -->
-
                 <!-- Main Content Section Start-->
                 @yield('main-content')
                 <!-- Main Content Section End-->

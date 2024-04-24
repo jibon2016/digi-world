@@ -1,3 +1,8 @@
+:root {
+    --primary-bg-color: #004196;
+    --primary-content-color: #ff692d;
+}
+
 img {
     vertical-align: middle;
     border-style: none;
@@ -167,7 +172,7 @@ a {
     50% {
         background-position: 100% 50%;
     }
-    
+
     100% {
         background-position: 0 50%;
     }
@@ -218,7 +223,8 @@ a {
 /* Category CSS */
 .category{
     font-family: 'Inter', sans-serif;
-    background-color: #96EFFF;
+    background-color: var(--primary-bg-color);
+    color: #fff;
 }
 .navbar{
     position: relative;
@@ -242,7 +248,7 @@ a {
     background: #fff;
     z-index: 99;
     padding: 2px 0;
-    box-shadow: 0 5px 5px rgba(0,0,0,.1) , 0 10px 15px rgba(0,0,0,.1) , 0 -3px 0 0 #02c0fa;
+    box-shadow: 0 5px 5px rgba(0,0,0,.1) , 0 10px 15px rgba(0,0,0,.1) , 0 -3px 0 0 var(--primary-content-color);
 }
 .navbar-nav .drop-down li {
     display: block;
@@ -292,10 +298,12 @@ a {
     top: -1px;
     box-shadow: 0 5px 5px rgba(0,0,0,.1) , 0 5px 15px rgba(0,0,0,.2);
 }
+.navbar-nav .drop-down li a:hover{
+    color: #fff !important;
+}
 
-.navbar-nav .nav-item .drop-down .nav-item:hover{
-    background: #1ad1d5;
-    color: black;
+.navbar-nav .nav-item .drop-down .nav-item:hover {
+    background: var(--primary-content-color);
 }
 
 .navbar-nav .multi-col .drop-down ul {
@@ -372,7 +380,7 @@ a {
 }
 .cart-item-inner{
     display: block;
-    background: #A0E9FF;
+    background: #fff;
     border-radius: 15px;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
     padding: 15px 0;
@@ -388,9 +396,13 @@ a {
     padding: 15px;
 }
 .cart-item-inner p  {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
     color:#222121;
+}
+
+.cat-item:hover .cart-item-inner p {
+    color: var(--primary-content-color);
 }
 
 /* Featured-Products CSS */
