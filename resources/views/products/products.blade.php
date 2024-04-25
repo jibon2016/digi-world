@@ -155,14 +155,14 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="col-md-9 p-0 products">
                     <div class="row">
                         <div class="col-md-12 d-flex mx-2 bg-white rounded border align-items-center justify-content-between">
                             <h4 class="fs-6 m-0 p-2 font-bold products-brand ps-4 m-hide">Intel Brand</h4>
-                            <span class="side-filter bg-secondary-subtle ms-3 p-2 rounded-2"><i class="pe-1 fa-solid fa-filter"></i>Filter</span>
+                            <span class="side-filter h-desk bg-secondary-subtle ms-3 p-2 rounded-2"><i class="pe-1 fa-solid fa-filter"></i>Filter</span>
                             <div class="sorting-section p-3">
                                 <label for="show" class="pe-2 m-hide">Show
                                     <select name="" class="bg-secondary-subtle border-gray py-1 w-auto" id="show">
@@ -207,7 +207,7 @@
                 {
                     toggleLoader(true)
                     setInterval(() => {
-                        
+
                     checkValueAvabailability.push($(this).val());
                     console.log(checkValueAvabailability);
                     var reqData = JSON.stringify(checkValueAvabailability);
@@ -224,7 +224,7 @@
                             toggleLoader(false)
                         }
                     })
-                    
+
                     }, 1000)
                 }else {
                     checkValueAvabailability.splice(checkValueAvabailability.indexOf($(this).val()), 1)
@@ -242,7 +242,7 @@
                     console.log(checkValueGeneration);
                 }
             })
-            
+
         })
     </script>
 @endsection

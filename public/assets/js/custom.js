@@ -4,6 +4,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
     var splide = new Splide( '.splide', {
         type   : 'loop',
         perPage: 5,
+        speed: 300,
         perMove: 1,
         autoplay: true,
         autoWidth: true,

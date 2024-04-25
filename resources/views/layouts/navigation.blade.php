@@ -1,4 +1,4 @@
-<section class="category sticky-top" id="main-nav">
+<section class="category" id="main-nav">
     <nav class="navbar p-0  h-100  ">
         <div class="container-xl">
             <ul class="navbar-nav">

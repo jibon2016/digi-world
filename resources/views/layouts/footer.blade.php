@@ -4,7 +4,7 @@
     <div class="container p-0">
         <div class="row">
             <div class="col-md-3 d-flex brand flex-column p-2 align-items-center justify-content-md-around">
-                <span class="fs-1 logo pb-2 text-white"><a class="text-decoration-none text-black" href="/">Digi-World</a></span>
+                <span class="pb-2"><a class="text-decoration-none bg-white" href="/"><img src="{{ asset('/assets/images/logo/logo.png') }}" alt=""></a></span>
                 <div class="social-icon d-flex flex-row">
                     <li class="border"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
                     <li class="border"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
@@ -17,21 +17,20 @@
                 <div class="links">
                     <li><a href="/">Home</a></li>
                     <li><a href="/contact-us">Contact-us</a></li>
-                    <li><a href="">Servies</a></li>
+                    <li><a href="">Services</a></li>
                     <li><a href="">Career</a></li>
                 </div>
             </div>
-            <div class="col-md-3 d-flex flex-column pt-2 about-links align-items-center justify-content-center">
-                <a class="fs-4 text-white text-decoration-none" href="">Menu</a>
+            <div class="col-md-3 d-flex flex-column pt-5 about-links align-items-center justify-content-center">
                 <div class="links">
-                    <li><a href="">Link</a></li>
-                    <li><a href="">Link</a></li>
-                    <li><a href="">Link</a></li>
-                    <li><a href="">Link</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Refund and Return Policy</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Privacy Policy</a></li>
                 </div>
             </div>
             <div class="col-md-3 pt-2 contact-us  align-items-md-center justify-content-center">
-                
+
                 <form action="" class="d-flex flex-column flex-wrap text-white " method="POST">
                     <h5 class="text-bold text-center">Contact US</h5>
                     <div class="mb-2">
